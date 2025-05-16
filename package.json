@@ -23,6 +23,6 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "npm rebuild bcrypt --build-from-source && tsc"
+    "build": "npm ci && npm rebuild bcrypt --build-from-source"
   }
 }
